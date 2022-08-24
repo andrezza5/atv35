@@ -1,0 +1,33 @@
+
+Primeiro código
+
+
+let primeiraNota = parseInt(prompt("Qual a sua primeira nota?"))
+
+let segundaNota = parseInt(prompt("Qual a sua segunda nota?"))
+
+let terceiraNota = parseInt(prompt("Qual a sua terceira nota?"))
+
+
+    if ((primeiraNota + segundaNota + terceiraNota) / 3 >= 7 && (primeiraNota + segundaNota + terceiraNota) / 3  <10 ) {
+        document.write ("Aprovado")}
+
+    if ((primeiraNota + segundaNota + terceiraNota) / 3 < 7) {
+        document.write ("Reprovado")}
+
+    ____________________________________________________
+
+Segundo código
+
+let primeiraNota = parseInt(prompt("Qual é a sua primeira nota?"))
+
+    let segundaNota = parseInt(prompt("Qual a sua segunda nota?"))
+
+    if ((primeiraNota + segundaNota) / 2 >= 7 && (primeiraNota + segundaNota) / 2  <10 ) {
+        document.write ("Você foi aprovado")}
+
+    if ((primeiraNota + segundaNota) / 2 < 7) {
+        document.write ("Você foi reprovado")}
+
+    if ((primeiraNota + segundaNota) / 2 == 10){
+        document.write ( "Você foi aprovado com distinção")}
